@@ -1,0 +1,85 @@
+<doctype <!DOCTYPE html>
+    <html>
+
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Game of Thrones (RPG)</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- Game Logic -->
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
+            <div class="container">
+
+                <div class="navBarArea">
+                    <a class="navbarName" href="https://gameofthrones.fandom.com/wiki/Game_of_Thrones_Wiki" id="homeName">Game
+                        of Thrones (RPG)</a>
+                </div>
+
+            </div>
+        </nav>
+
+        <div class="multiPhased2"></div>
+
+        <main class="container">
+            <section class="row">
+                <div class="col-md-11">
+                        <div id="main-game-section">
+                                <!-- Where the characters are initially available to be selected. -->
+                                <div id="characters-section">
+                                    <div class="groupTitle">1. Pick Your Champion!</div>
+                                </div>
+    
+                                <!-- Section for our selected character. -->
+                                <div id="selected-character-section">
+                                    <div class="groupTitle">2. This Is Your Hero:</div>
+                                    <!-- Where our selected character will appear. -->
+                                    <div id="selected-character"></div>
+                                </div>
+    
+                                <!-- Where our enemies available to attack will appear. -->
+                                <div id="available-to-attack-section">
+                                    <div class="groupTitle">3. Chose the Fool: </div>
+                                </div>
+    
+                                <div class="groupTitle">4. The Battlefield: The North</div>
+                                <div id="fight-section">
+                                    <button id="attack-button">5. Fire at Your Enemy!!!</button>
+                                </div>
+    
+                                <div id="action">
+                                    <div class="character-section">
+                                        <div class="groupTitle">6. The Fool's Location on Battlefield</div>
+                                        <!-- Where our defender will appear. -->
+                                        <div id="defender"></div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div id="game-message" class="groupTitle"></div>
+    
+                            </div>
+                </div>
+            </section>
+           
+        </main>
+
+      
+
+        <!-- End of container -->
+
+        <!-- Start of footer -->
+        <footer class="footer">
+            <div class="multiPhased"></div>
+            <p class="textMultiPhased text-center">
+                &copy; Winter Has Come!!!
+            </p>
+        </footer>
+
+    </html>

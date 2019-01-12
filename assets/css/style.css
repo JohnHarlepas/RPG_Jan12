@@ -1,0 +1,246 @@
+body {
+  /* font-family: "Share Tech Mono", Arial, Helvetica, sans-serif; */
+  font-family: 'Black Ops One', cursive;
+  background-image: url("../media/images/wallPaper2.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+}
+
+.characters-section {
+  color: green;
+}
+
+
+  #container {
+    position: absolute;
+    top: 300px;
+    left: 500px;
+  } */
+
+
+
+
+
+
+  
+  html {
+  
+    position: relative;
+  
+  
+    min-height: 100%;
+  }
+  
+  
+  main {
+    margin: 80px 0;
+  }
+  
+  
+  .contentSection {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+  
+
+  
+  /* NAV START */
+  #homeName {
+    font-family: Georgia, Times, "Times New Roman", serif;
+  
+  
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(255, 243, 243);
+  
+  
+    background: brown;
+  }
+  
+  /* override bootstrap hover color and border */
+  .navbar-default .navbar-nav > li > a:hover {
+    color: #4fa09c;
+  }
+  
+  .navbar {
+    background: rgb(77, 75, 74);
+    border: none;
+    background-image: url("../media/images/header.png");
+  }
+  
+  /* media query for nav background color change */
+  @media only screen and (max-width: 767px) {
+    .navBarArea {
+      background-color: gold;
+    }
+  }
+  /* END NAV */
+
+
+
+  /* BEGIN FOOTER */
+  .footer {
+  
+    position: absolute;
+    bottom: 0;
+  
+  
+    width: 100%;
+    height: 55px;
+  
+  
+    background-image: url("../media/images/header.png");
+  }
+  
+  .textMultiPhased {
+  
+    margin-top: 15px;
+    font-weight: bolder;
+  
+  
+    color: red;
+    background: black;
+
+  }
+  
+  .multiPhased {
+  
+    height: 6px;
+    padding-top: 3px;
+    
+  
+    background-color: #c6c206;
+  }
+
+  .multiPhased2 {
+  
+    height: 6px;
+    padding-bottom: 3px;
+    
+  
+    background-color: #c6c206;
+  }
+  /* END FOOTER */
+
+  
+  p:last-child {
+      margin-bottom: 0;
+    }
+  
+
+
+
+
+
+/*  
+The Beginning of New */
+
+
+
+
+
+
+
+  img {
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+  }
+  
+  .groupTitle  {
+    font-size: 2em;
+    color: goldenrod;
+
+  }
+
+  
+  .character {
+    display: inline-block;
+    cursor: crosshair;
+    background-color: orange;
+    border-color: greenyellow;
+    border-style: dotted;
+    border-width: 3px;
+  }
+  
+  .character-image {
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  
+  .character-name {
+    text-align: center;
+  }
+  
+  .character-health {
+    text-align: center;
+  }
+  
+  #available-to-attack-section .character {
+    display: inline-block;
+    cursor: crosshair;
+    background-color: blueviolet;
+    border-color: greenyellow;
+    border-style: das;
+    border-width: 1px;
+  }
+  
+  .enemy {
+    display: inline-block;
+    cursor: pointer;
+    background-color: red;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+  }
+  
+  #action .character {
+    color: white;
+    background-color: black;
+  }
+  
+  .target-enemy {
+    color: white;
+    background-color: black;
+  }
+  
+  #selected-character {
+    width: 190px;
+    height: 160px;
+  }
+  
+  #attacker {
+    width: 190px;
+    height: 160px;
+  }
+  
+  #defender {
+    width: 190px;
+    height: 160px;
+  }
+  
+  #defender-name {
+    text-align: center;
+  }
+  
+  #defender-health {
+    text-align: center;
+  }
+  
+  #choose-enemy-button {
+    visibility: hidden;
+  }
+  
+  #restart-button {
+    visibility: hidden;
+  }
+  
+  #turn-counter {
+    font-size: 150%;
+  }
+   */
