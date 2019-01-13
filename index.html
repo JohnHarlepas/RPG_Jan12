@@ -9,7 +9,6 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <!-- Game Logic -->
         <script type="text/javascript" src="assets/javascript/game.js"></script>
 
     </head>
@@ -30,35 +29,36 @@
 
         <main class="container">
             <section class="row">
-                <div class="col-md-11">
+                <div class="col-md-12">
                         <div id="main-game-section">
-                                <!-- Where the characters are initially available to be selected. -->
-                                <div id="characters-section">
+
+                                <div id="pickHero">
                                     <div class="groupTitle">1. Pick Your Champion!</div>
                                 </div>
     
-                                <!-- Section for our selected character. -->
-                                <div id="selected-character-section">
+                                <div id="heroView">
                                     <div class="groupTitle">2. This Is Your Hero:</div>
-                                    <!-- Where our selected character will appear. -->
-                                    <div id="selected-character"></div>
+      
+                                    <div id="heroSelView"></div>
                                 </div>
     
-                                <!-- Where our enemies available to attack will appear. -->
-                                <div id="available-to-attack-section">
+                
+                                <div id="attackView">
                                     <div class="groupTitle">3. Chose the Fool: </div>
                                 </div>
     
                                 <div class="groupTitle">4. The Battlefield: The North</div>
                                 <div id="fight-section">
-                                    <button id="attack-button">5. Fire at Your Enemy!!!</button>
+                                    <button id="attack-button">5. Fire at Your fool!!!</button>
+                                </div>
+                                <div>
                                 </div>
     
                                 <div id="action">
-                                    <div class="character-section">
+                                    <div class="player-section">
                                         <div class="groupTitle">6. The Fool's Location on Battlefield</div>
-                                        <!-- Where our defender will appear. -->
-                                        <div id="defender"></div>
+          
+                                        <div id="foolLoc"></div>
                                     </div>
                                 </div>
                                 <br>
@@ -78,7 +78,7 @@
         <footer class="footer">
             <div class="multiPhased"></div>
             <p class="textMultiPhased text-center">
-                &copy; Winter Has Come!!!
+                &copy; Winter Has Arrived!!!
             </p>
         </footer>
 

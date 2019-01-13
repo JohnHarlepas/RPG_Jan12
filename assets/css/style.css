@@ -8,22 +8,11 @@ body {
 
 }
 
-.characters-section {
-  color: green;
-}
-
-
   #container {
     position: absolute;
     top: 300px;
     left: 500px;
   } */
-
-
-
-
-
-
   
   html {
   
@@ -37,15 +26,12 @@ body {
   main {
     margin: 80px 0;
   }
-  
-  
+    
   .contentSection {
     background-color: #fff;
     padding: 30px;
     margin-bottom: 30px;
   }
-  
-
   
   /* NAV START */
   #homeName {
@@ -74,7 +60,7 @@ body {
   /* media query for nav background color change */
   @media only screen and (max-width: 767px) {
     .navBarArea {
-      background-color: gold;
+      /* background-color: gold; */
     }
   }
   /* END NAV */
@@ -136,13 +122,7 @@ body {
 
 
 /*  
-The Beginning of New */
-
-
-
-
-
-
+The Beginning of Javascript connected elements */
 
   img {
     width: 150px;
@@ -157,7 +137,7 @@ The Beginning of New */
   }
 
   
-  .character {
+  .player {
     display: inline-block;
     cursor: crosshair;
     background-color: orange;
@@ -166,31 +146,35 @@ The Beginning of New */
     border-width: 3px;
   }
   
-  .character-image {
+  .player-image {
     padding-right: 16px;
     padding-left: 16px;
     margin-top: 3px;
     margin-bottom: 3px;
   }
   
-  .character-name {
+  .player-name {
     text-align: center;
   }
   
-  .character-health {
+  .player-life {
     text-align: center;
   }
+
+  .pickHero {
+    color: green;
+  }
   
-  #available-to-attack-section .character {
+  #attackView .player {
     display: inline-block;
     cursor: crosshair;
     background-color: blueviolet;
     border-color: greenyellow;
-    border-style: das;
+    border-style: dashed;
     border-width: 1px;
   }
   
-  .enemy {
+  .fool {
     display: inline-block;
     cursor: pointer;
     background-color: red;
@@ -199,44 +183,39 @@ The Beginning of New */
     border-width: 1px;
   }
   
-  #action .character {
+  #action .player {
     color: white;
     background-color: black;
   }
   
-  .target-enemy {
-    color: white;
-    background-color: black;
-  }
-  
-  #selected-character {
+  #heroSelView {
     width: 190px;
     height: 160px;
   }
   
-  #attacker {
+  #foolSeen {
     width: 190px;
     height: 160px;
   }
   
-  #defender {
+  #foolLoc {
     width: 190px;
     height: 160px;
   }
   
-  #defender-name {
+  #foolLoc-name {
     text-align: center;
   }
   
-  #defender-health {
+  #foolLoc-life {
     text-align: center;
   }
   
-  #choose-enemy-button {
+  #choose-fool-button {
     visibility: hidden;
   }
   
-  #restart-button {
+  #moreBattle-button {
     visibility: hidden;
   }
   
