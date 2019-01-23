@@ -19,7 +19,14 @@ body {
     position: relative;
   
   
-    min-height: 100%;
+    /* min-height: 100%; */
+  }
+
+  /* allows the footer to stick to bottom */
+  html, body {
+    height: 100%; 
+    margin-bottom: 50px;
+
   }
   
   
@@ -68,15 +75,14 @@ body {
 
 
   /* BEGIN FOOTER */
+  /* this will make your footer stick to the bottom */
   .footer {
-  
-    position: absolute;
+
+    position: fixed;
+    left: 0;
     bottom: 0;
-  
-  
     width: 100%;
-    height: 55px;
-  
+    text-align: center;
   
     background-image: url("../media/images/header.png");
   }
